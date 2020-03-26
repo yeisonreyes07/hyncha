@@ -1,0 +1,176 @@
+h1, h2, h3, h4, p, a{
+  font-family:'Source Sans Pro', sans-serif;
+}
+.slider {
+    background-image:url('../img/estadio.png');
+    margin: 0px;
+    height:100vh;
+    background-size:cover;
+  	background-position:top;
+  
+  	
+}
+.fondo-gris {
+  background-image:url('../img/fondo-gris.png');
+  margin: 0px;
+  height:100vh;
+  background-size:cover;
+  background-position:top;
+}
+
+img.rounded.mx-auto.d-block.logo {
+  background: none;
+  border: none;
+  max-width:40%;
+}
+img.img-thumbnail.titulos {
+  background: none;
+  border: none;
+  max-width:53%;
+  position: absolute;
+}
+.col-md-6.abs-telefono {
+  position: relative;
+}
+.telefono {
+  background: none;
+  border: none;
+  bottom: 0px;
+  right: 0px;
+  padding:0px;
+  max-width:50%;
+}
+.abs-logo {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+ 
+}
+
+
+.ppal {
+    background-color: #3d3d3d;
+    background-size:cover;
+
+}
+.ppal h3 {
+  color:white;
+  font-size:28px;
+  font-weight:400;
+  text-align: center;
+
+}
+.parrafos {
+  color:white;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.subtitulo h2 {
+  color:#000000;
+  text-align: center;
+}
+.saber_mas {
+  background-color:#ffbb00;
+}
+/* Newsletter */ 
+input.form-control.input_email {
+  border: solid 1px white;
+  border-radius: 0px;
+  background: transparent;
+}
+input.form-control.input_email::placeholder {
+  color: white;
+}
+button.btn.btn-primary.btn_saber_mas.mb-2{
+  border-radius: 0px;
+  background-color: #ff7100;
+  border: solid 1px #ff7100;
+  padding-left: 15px;
+  color:black;
+  font-family:'Source sans pro';
+}
+button.btn.btn-primary.btn_saber_mas.mb-2:hover {
+  background-color: #ffb700;
+  border: solid 1px 
+}
+/*Area de contacto */
+.ct-1 {
+  color:white;
+}
+form.contacto-form input {
+  border: solid 1px white;
+  border-radius: 0px;
+  background-color: transparent;
+}
+form.contacto-form input::placeholder {
+  color: white;
+}
+textarea#formGroupExampleInput2 {
+  border: 1px solid white;
+  border-radius: 0px;
+  background-color: transparent;
+}
+textarea#formGroupExampleInput2::placeholder {
+  color: white;
+}
+button.btn.btn-primary.btn_enviar.mb-2 {
+  border-radius: 0px;
+  background-color:transparent;
+  border: solid 1px #ff7100;
+  padding-left: 15px;
+  color:#ff7100;
+  width:100%;
+}
+.align-self-center {
+  min-height: 100vh !important;
+}
+.col.align-self-end {
+  min-height: 100vh !important;
+}
+
+
+/*STICKER */ 
+img.rounded.float-right.sticker {
+  max-width: 100%;
+  position: absolute;
+}
+.col-sm{
+  padding-top:2%;
+  transition:.3s ease-in;
+}
+.col-sm:hover{
+  background: rgb(255,113,0);
+  background: -moz-linear-gradient(0deg, rgba(255,113,0,1) 0%, rgba(255,187,0,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(255,113,0,1) 0%, rgba(255,187,0,1) 100%);
+  background: linear-gradient(0deg, rgba(255,113,0,1) 0%, rgba(255,187,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7100",endColorstr="#ffbb00",GradientType=1);
+padding-top:2%;
+  transition:.3s ease-in;
+}
+
+
+/* condition for screen size maximum of 600px */
+@media (max-width:1100px) {
+
+  /* your conditional / responsive CSS inside this condition */
+
+  #showcase {
+    background-image:url('landing-mobile.png');
+    margin: 0px;
+	height:100vh;
+   
+  	
+}
+
+}
+@media(max-width: 580px){
+	img.rounded.float-right.sticker {
+    max-width: 90%;
+    position: absolute;
+  }
+}
